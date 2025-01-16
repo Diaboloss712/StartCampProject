@@ -27,3 +27,6 @@ git config --global alias.st 'status' : alias는 별명, status를 st로 줄임
 git , : 모든 파일 추가
 폴더채로 관리가 가능, "folder"라고 할때 git add folder/
 git add -A : 작성한 모든 코드에 작동
+
+
+gitignore : git 추적을 받지 않게하는 설정 파일(env파일, Secret Key)
