@@ -33,4 +33,6 @@ gitignore : git 추적을 받지 않게하는 설정 파일(env파일, Secret Ke
 git remote nickname url : nickname에 url을 저장
 git remote -v : 현재 담겨있는 주소 목록 보여주기 
 git remote remove nickname : nickname에 해당하는 연결 삭제
-git push nickname branchname : nickname에 해당하는 것을 branchname에 push
+git push nickname branchname : nickname에 해당하는 branchname으로 push
+git pull nickname branchname : nickname에 해당하는 branchname으로 pull
+git clone url : url주소의 repository를 다운로드
