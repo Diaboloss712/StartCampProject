@@ -16,6 +16,7 @@ git status : 현재 파일들의 버전 관리 상태(추적되고 있는지)
 git add filename : filename에 해당하는 파일을 Staging
 git commit : 분산 저장소에 관리시작
 git log : 커밋한 로그 확인 
+git config --global -l : git global 설정 확인
 
 단, git commit 하기 전에 아래와 같이  이메일과 유저이름 설정이 필요
 git config --global user.email "이메일주소"
